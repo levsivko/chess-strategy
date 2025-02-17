@@ -12,5 +12,14 @@ public class AllKeyboardScript : MonoBehaviour
                 o.ResetState();
             }
         }
+
+		if (Input.GetKeyDown(KeyCode.F1))
+		{
+			PieceScript[] objects = (PieceScript[])GameObject.FindObjectsByType(typeof(PieceScript), FindObjectsSortMode.None);
+			foreach (var o in objects)
+			{
+				o.SwitchBlackWhite();
+			}
+		}
 	}
 }
