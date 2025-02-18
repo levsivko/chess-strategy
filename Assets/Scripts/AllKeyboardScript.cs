@@ -15,10 +15,20 @@ public class AllKeyboardScript : MonoBehaviour
 
 		if (Input.GetKeyDown(KeyCode.F1))
 		{
-			PieceScript[] objects = (PieceScript[])GameObject.FindObjectsByType(typeof(PieceScript), FindObjectsSortMode.None);
-			foreach (var o in objects)
 			{
-				o.SwitchBlackWhite();
+				PieceScript[] objects = (PieceScript[])GameObject.FindObjectsByType(typeof(PieceScript), FindObjectsInactive.Include, FindObjectsSortMode.None);
+				foreach (var o in objects)
+				{
+					o.SwitchBlackWhite();
+				}
+			}
+
+			{
+				PairPieceScript[] objects = (PairPieceScript[])GameObject.FindObjectsByType(typeof(PairPieceScript), FindObjectsInactive.Include, FindObjectsSortMode.None);
+				foreach (var o in objects)
+				{
+					o.SwitchBlackWhite();
+				}
 			}
 		}
 	}
