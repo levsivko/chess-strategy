@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\AllKeyboardScript.cs" />
+    <Compile Include="Assets\Scripts\MoveScript.cs" />
     <Compile Include="Assets\Scripts\PieceScript.cs" />
     <Compile Include="Assets\Scripts\ClickScript.cs" />
     <Compile Include="Assets\Scripts\PairPieceScript.cs" />

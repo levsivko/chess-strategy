@@ -368,7 +368,7 @@ Transform:
   m_GameObject: {fileID: 42274500}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 12, z: 0}
+  m_LocalPosition: {x: 0, y: 12, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -726,6 +726,7 @@ GameObject:
   - component: {fileID: 134399635}
   - component: {fileID: 134399634}
   - component: {fileID: 134399633}
+  - component: {fileID: 134399636}
   m_Layer: 0
   m_Name: pawn1 (5)
   m_TagString: Untagged
@@ -839,6 +840,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &134399636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134399631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0095a65f5cca554eb157aadca4904f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  captured: 0
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!1 &143645088
 GameObject:
   m_ObjectHideFlags: 0
@@ -1501,6 +1516,7 @@ GameObject:
   - component: {fileID: 219749786}
   - component: {fileID: 219749785}
   - component: {fileID: 219749784}
+  - component: {fileID: 219749787}
   m_Layer: 0
   m_Name: pawn1 (14)
   m_TagString: Untagged
@@ -1614,6 +1630,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &219749787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219749782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0095a65f5cca554eb157aadca4904f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  captured: 0
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!1 &223597155
 GameObject:
   m_ObjectHideFlags: 0
@@ -1727,6 +1757,7 @@ GameObject:
   - component: {fileID: 229167222}
   - component: {fileID: 229167221}
   - component: {fileID: 229167224}
+  - component: {fileID: 229167225}
   m_Layer: 0
   m_Name: pawn1 (10)
   m_TagString: Untagged
@@ -1855,6 +1886,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   piece1: {fileID: 1151205279}
   piece2: {fileID: 1990726300}
+--- !u!114 &229167225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229167219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0095a65f5cca554eb157aadca4904f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  captured: 0
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!1 &249428823
 GameObject:
   m_ObjectHideFlags: 0
@@ -3111,6 +3156,7 @@ GameObject:
   - component: {fileID: 381438990}
   - component: {fileID: 381438989}
   - component: {fileID: 381438988}
+  - component: {fileID: 381438991}
   m_Layer: 0
   m_Name: pawn1 (4)
   m_TagString: Untagged
@@ -3224,6 +3270,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &381438991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381438986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0095a65f5cca554eb157aadca4904f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  captured: 0
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!1 &384140875
 GameObject:
   m_ObjectHideFlags: 0
@@ -3361,6 +3421,7 @@ GameObject:
   - component: {fileID: 412075866}
   - component: {fileID: 412075865}
   - component: {fileID: 412075868}
+  - component: {fileID: 412075869}
   m_Layer: 0
   m_Name: pawn1 (11)
   m_TagString: Untagged
@@ -3489,6 +3550,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   piece1: {fileID: 143645088}
   piece2: {fileID: 1889578639}
+--- !u!114 &412075869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 412075863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0095a65f5cca554eb157aadca4904f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  captured: 0
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!1 &427580621
 GameObject:
   m_ObjectHideFlags: 0
@@ -4197,6 +4272,7 @@ GameObject:
   - component: {fileID: 494632932}
   - component: {fileID: 494632931}
   - component: {fileID: 494632930}
+  - component: {fileID: 494632933}
   m_Layer: 0
   m_Name: pawn1
   m_TagString: Untagged
@@ -4310,6 +4386,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &494632933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 494632928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0095a65f5cca554eb157aadca4904f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  captured: 0
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!1 &495496324
 GameObject:
   m_ObjectHideFlags: 0
@@ -4877,6 +4967,7 @@ GameObject:
   - component: {fileID: 582042037}
   - component: {fileID: 582042036}
   - component: {fileID: 582042039}
+  - component: {fileID: 582042040}
   m_Layer: 0
   m_Name: pawn1 (11)
   m_TagString: Untagged
@@ -5005,6 +5096,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   piece1: {fileID: 497935918}
   piece2: {fileID: 495496324}
+--- !u!114 &582042040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 582042034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0095a65f5cca554eb157aadca4904f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  captured: 0
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!1 &586279112
 GameObject:
   m_ObjectHideFlags: 0
@@ -5588,6 +5693,7 @@ GameObject:
   - component: {fileID: 661212511}
   - component: {fileID: 661212510}
   - component: {fileID: 661212509}
+  - component: {fileID: 661212512}
   m_Layer: 0
   m_Name: pawn1 (4)
   m_TagString: Untagged
@@ -5701,6 +5807,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &661212512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661212507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0095a65f5cca554eb157aadca4904f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  captured: 0
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!1 &673268608
 GameObject:
   m_ObjectHideFlags: 0
@@ -5961,6 +6081,7 @@ GameObject:
   - component: {fileID: 683666566}
   - component: {fileID: 683666565}
   - component: {fileID: 683666564}
+  - component: {fileID: 683666567}
   m_Layer: 0
   m_Name: pawn1 (3)
   m_TagString: Untagged
@@ -6074,6 +6195,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &683666567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 683666562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0095a65f5cca554eb157aadca4904f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  captured: 0
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!1 &691150870
 GameObject:
   m_ObjectHideFlags: 0
@@ -6558,6 +6693,7 @@ GameObject:
   - component: {fileID: 721552378}
   - component: {fileID: 721552377}
   - component: {fileID: 721552376}
+  - component: {fileID: 721552379}
   m_Layer: 0
   m_Name: pawn1
   m_TagString: Untagged
@@ -6671,6 +6807,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &721552379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721552374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0095a65f5cca554eb157aadca4904f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  captured: 0
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!1 &765941922
 GameObject:
   m_ObjectHideFlags: 0
@@ -6683,6 +6833,7 @@ GameObject:
   - component: {fileID: 765941926}
   - component: {fileID: 765941925}
   - component: {fileID: 765941924}
+  - component: {fileID: 765941927}
   m_Layer: 0
   m_Name: pawn1 (7)
   m_TagString: Untagged
@@ -6796,6 +6947,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &765941927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765941922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0095a65f5cca554eb157aadca4904f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  captured: 0
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!1 &770822754
 GameObject:
   m_ObjectHideFlags: 0
@@ -7180,6 +7345,7 @@ GameObject:
   - component: {fileID: 794845996}
   - component: {fileID: 794845995}
   - component: {fileID: 794845994}
+  - component: {fileID: 794845997}
   m_Layer: 0
   m_Name: pawn1 (1)
   m_TagString: Untagged
@@ -7293,6 +7459,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &794845997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794845992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0095a65f5cca554eb157aadca4904f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  captured: 0
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!1 &799241115
 GameObject:
   m_ObjectHideFlags: 0
@@ -8299,6 +8479,7 @@ GameObject:
   - component: {fileID: 928373146}
   - component: {fileID: 928373145}
   - component: {fileID: 928373144}
+  - component: {fileID: 928373147}
   m_Layer: 0
   m_Name: pawn1 (3)
   m_TagString: Untagged
@@ -8412,6 +8593,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &928373147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928373142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0095a65f5cca554eb157aadca4904f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  captured: 0
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!1 &939047231
 GameObject:
   m_ObjectHideFlags: 0
@@ -8424,6 +8619,7 @@ GameObject:
   - component: {fileID: 939047235}
   - component: {fileID: 939047234}
   - component: {fileID: 939047233}
+  - component: {fileID: 939047236}
   m_Layer: 0
   m_Name: pawn1 (8)
   m_TagString: Untagged
@@ -8537,6 +8733,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &939047236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939047231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0095a65f5cca554eb157aadca4904f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  captured: 0
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!1 &943805596
 GameObject:
   m_ObjectHideFlags: 0
@@ -8773,6 +8983,7 @@ GameObject:
   - component: {fileID: 1022560808}
   - component: {fileID: 1022560807}
   - component: {fileID: 1022560806}
+  - component: {fileID: 1022560809}
   m_Layer: 0
   m_Name: pawn1 (7)
   m_TagString: Untagged
@@ -8886,6 +9097,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1022560809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022560804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0095a65f5cca554eb157aadca4904f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  captured: 0
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!1 &1031767239
 GameObject:
   m_ObjectHideFlags: 0
@@ -9337,7 +9562,7 @@ Transform:
   m_GameObject: {fileID: 1062682002}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1, z: 0}
+  m_LocalPosition: {x: 0, y: -1, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10143,6 +10368,7 @@ GameObject:
   - component: {fileID: 1176632232}
   - component: {fileID: 1176632231}
   - component: {fileID: 1176632230}
+  - component: {fileID: 1176632233}
   m_Layer: 0
   m_Name: pawn1 (12)
   m_TagString: Untagged
@@ -10256,6 +10482,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1176632233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176632228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0095a65f5cca554eb157aadca4904f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  captured: 0
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!1 &1182469824
 GameObject:
   m_ObjectHideFlags: 0
@@ -10640,6 +10880,7 @@ GameObject:
   - component: {fileID: 1218006541}
   - component: {fileID: 1218006540}
   - component: {fileID: 1218006539}
+  - component: {fileID: 1218006542}
   m_Layer: 0
   m_Name: pawn1 (6)
   m_TagString: Untagged
@@ -10753,6 +10994,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1218006542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1218006537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0095a65f5cca554eb157aadca4904f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  captured: 0
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!1 &1220130389
 GameObject:
   m_ObjectHideFlags: 0
@@ -11394,6 +11649,7 @@ GameObject:
   - component: {fileID: 1290143428}
   - component: {fileID: 1290143427}
   - component: {fileID: 1290143426}
+  - component: {fileID: 1290143429}
   m_Layer: 0
   m_Name: pawn1 (12)
   m_TagString: Untagged
@@ -11507,6 +11763,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1290143429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1290143424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0095a65f5cca554eb157aadca4904f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  captured: 0
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!1 &1304073839
 GameObject:
   m_ObjectHideFlags: 0
@@ -11843,6 +12113,7 @@ GameObject:
   - component: {fileID: 1321659912}
   - component: {fileID: 1321659911}
   - component: {fileID: 1321659910}
+  - component: {fileID: 1321659913}
   m_Layer: 0
   m_Name: pawn1 (5)
   m_TagString: Untagged
@@ -11956,6 +12227,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1321659913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321659908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0095a65f5cca554eb157aadca4904f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  captured: 0
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!1 &1331144306
 GameObject:
   m_ObjectHideFlags: 0
@@ -11968,6 +12253,7 @@ GameObject:
   - component: {fileID: 1331144310}
   - component: {fileID: 1331144309}
   - component: {fileID: 1331144308}
+  - component: {fileID: 1331144311}
   m_Layer: 0
   m_Name: pawn1 (9)
   m_TagString: Untagged
@@ -12081,6 +12367,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1331144311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331144306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0095a65f5cca554eb157aadca4904f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  captured: 0
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!1 &1340444642
 GameObject:
   m_ObjectHideFlags: 0
@@ -12924,6 +13224,7 @@ GameObject:
   - component: {fileID: 1433697793}
   - component: {fileID: 1433697792}
   - component: {fileID: 1433697791}
+  - component: {fileID: 1433697794}
   m_Layer: 0
   m_Name: pawn1 (8)
   m_TagString: Untagged
@@ -13037,6 +13338,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1433697794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433697789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0095a65f5cca554eb157aadca4904f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  captured: 0
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!1 &1460531977
 GameObject:
   m_ObjectHideFlags: 0
@@ -13346,6 +13661,7 @@ GameObject:
   - component: {fileID: 1473423849}
   - component: {fileID: 1473423848}
   - component: {fileID: 1473423847}
+  - component: {fileID: 1473423850}
   m_Layer: 0
   m_Name: pawn1 (9)
   m_TagString: Untagged
@@ -13459,6 +13775,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1473423850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473423845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0095a65f5cca554eb157aadca4904f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  captured: 0
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!1 &1525538700
 GameObject:
   m_ObjectHideFlags: 0
@@ -14318,6 +14648,7 @@ GameObject:
   - component: {fileID: 1605433832}
   - component: {fileID: 1605433831}
   - component: {fileID: 1605433834}
+  - component: {fileID: 1605433835}
   m_Layer: 0
   m_Name: pawn1 (10)
   m_TagString: Untagged
@@ -14446,6 +14777,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   piece1: {fileID: 597437264}
   piece2: {fileID: 254779330}
+--- !u!114 &1605433835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1605433829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0095a65f5cca554eb157aadca4904f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  captured: 0
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!1 &1605439760
 GameObject:
   m_ObjectHideFlags: 0
@@ -15937,6 +16282,7 @@ GameObject:
   - component: {fileID: 1754982210}
   - component: {fileID: 1754982209}
   - component: {fileID: 1754982208}
+  - component: {fileID: 1754982211}
   m_Layer: 0
   m_Name: pawn1 (13)
   m_TagString: Untagged
@@ -16050,6 +16396,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1754982211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754982206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0095a65f5cca554eb157aadca4904f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  captured: 0
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!1 &1775388069
 GameObject:
   m_ObjectHideFlags: 0
@@ -16186,6 +16546,7 @@ GameObject:
   - component: {fileID: 1781483501}
   - component: {fileID: 1781483500}
   - component: {fileID: 1781483499}
+  - component: {fileID: 1781483502}
   m_Layer: 0
   m_Name: pawn1 (13)
   m_TagString: Untagged
@@ -16299,6 +16660,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1781483502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1781483497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0095a65f5cca554eb157aadca4904f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  captured: 0
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!1 &1782610754
 GameObject:
   m_ObjectHideFlags: 0
@@ -16738,6 +17113,7 @@ GameObject:
   - component: {fileID: 1816087408}
   - component: {fileID: 1816087407}
   - component: {fileID: 1816087406}
+  - component: {fileID: 1816087409}
   m_Layer: 0
   m_Name: pawn1
   m_TagString: Untagged
@@ -16851,6 +17227,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1816087409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816087404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0095a65f5cca554eb157aadca4904f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  captured: 0
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!1 &1818514848
 GameObject:
   m_ObjectHideFlags: 0
@@ -18057,6 +18447,7 @@ GameObject:
   - component: {fileID: 1958622325}
   - component: {fileID: 1958622324}
   - component: {fileID: 1958622323}
+  - component: {fileID: 1958622326}
   m_Layer: 0
   m_Name: pawn1 (6)
   m_TagString: Untagged
@@ -18170,6 +18561,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1958622326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958622321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0095a65f5cca554eb157aadca4904f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  captured: 0
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!1 &1964272873
 GameObject:
   m_ObjectHideFlags: 0
@@ -18308,6 +18713,7 @@ GameObject:
   - component: {fileID: 1977919703}
   - component: {fileID: 1977919702}
   - component: {fileID: 1977919701}
+  - component: {fileID: 1977919704}
   m_Layer: 0
   m_Name: pawn1 (1)
   m_TagString: Untagged
@@ -18421,6 +18827,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1977919704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977919699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0095a65f5cca554eb157aadca4904f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  captured: 0
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!1 &1977957356
 GameObject:
   m_ObjectHideFlags: 0
@@ -18433,6 +18853,7 @@ GameObject:
   - component: {fileID: 1977957360}
   - component: {fileID: 1977957359}
   - component: {fileID: 1977957358}
+  - component: {fileID: 1977957361}
   m_Layer: 0
   m_Name: pawn1 (2)
   m_TagString: Untagged
@@ -18546,6 +18967,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1977957361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977957356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0095a65f5cca554eb157aadca4904f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  captured: 0
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!1 &1979186471
 GameObject:
   m_ObjectHideFlags: 0
@@ -18782,6 +19217,7 @@ GameObject:
   - component: {fileID: 2007057823}
   - component: {fileID: 2007057822}
   - component: {fileID: 2007057821}
+  - component: {fileID: 2007057824}
   m_Layer: 0
   m_Name: pawn1 (2)
   m_TagString: Untagged
@@ -18895,6 +19331,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2007057824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007057819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0095a65f5cca554eb157aadca4904f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  captured: 0
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!1 &2028755787
 GameObject:
   m_ObjectHideFlags: 0
@@ -19007,6 +19457,7 @@ GameObject:
   - component: {fileID: 2045084649}
   - component: {fileID: 2045084648}
   - component: {fileID: 2045084647}
+  - component: {fileID: 2045084650}
   m_Layer: 0
   m_Name: pawn1 (14)
   m_TagString: Untagged
@@ -19120,6 +19571,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2045084650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045084645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0095a65f5cca554eb157aadca4904f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  captured: 0
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!1 &2057632798
 GameObject:
   m_ObjectHideFlags: 0
@@ -19171,6 +19636,7 @@ GameObject:
   - component: {fileID: 2059046026}
   - component: {fileID: 2059046025}
   - component: {fileID: 2059046024}
+  - component: {fileID: 2059046027}
   m_Layer: 0
   m_Name: pawn1
   m_TagString: Untagged
@@ -19284,6 +19750,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2059046027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059046022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0095a65f5cca554eb157aadca4904f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  captured: 0
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!1 &2067429491
 GameObject:
   m_ObjectHideFlags: 0

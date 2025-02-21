@@ -30,6 +30,14 @@ public class AllKeyboardScript : MonoBehaviour
 					o.SwitchBlackWhite();
 				}
 			}
-		}
+
+            {
+                MoveScript[] objects = (MoveScript[])GameObject.FindObjectsByType(typeof(MoveScript), FindObjectsInactive.Include, FindObjectsSortMode.None);
+                foreach (var o in objects)
+                {
+                    o.MoveToStart();
+                }
+            }
+        }
 	}
 }
